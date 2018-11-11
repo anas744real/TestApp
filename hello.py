@@ -1,3 +1,11 @@
 print('Hello World!')
-name = input('Please enter your name: ')
-print('Hello, ' ,name)
+
+
+def say_hello():
+        
+        name = input('Please enter your name: ') or 'ANAS'
+        
+        print('Hello, ' ,name)
+
+
+say_hello()
